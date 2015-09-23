@@ -1,0 +1,5 @@
+#!/bin/bash
+
+bundle install --path /var/bundle --without development test --jobs $(nproc) --clean
+
+exec bundle exec lita
