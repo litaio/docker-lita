@@ -1,4 +1,4 @@
-FROM litaio/ruby:2.2.3
+FROM litaio/ruby:2.3.0
 MAINTAINER Jimmy Cuadra <jimmy@jimmycuadra.com>
 
 RUN gem install bundler && mkdir /app
